@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Basics</title>
+</head>
+<body>
+    <h1>Forms Basics!</h1>
+    <form action="/login">
+        <input type="text" placeholder="Username" required/>
+        <input type="password" placeholder="password" required/>
+        <button type="button">login</button>
+    </form>
+    <h2>Input Elements</h2>
+    <form action="">
+        <Label for="username">User Email:</Label>
+        <input type="email" placeholder="email" id="username">
+        <label for="url">Linkedin URL:</label>
+        <input type="url" id="url">
+        <label for="number">Number:</label>
+        <input type="number" id="number">
+        <button>Submit</button>
+    </form>
+    <h2>The Name Attribute</h2>
+    <form action="">
+        <div>
+            <label for="city">City:</label>
+            <input type="text" name="City" id="city" />
+        </div>
+        <div>
+            <label for="state">State:</label>
+            <input type="text" name="USstate" id="state" />
+        </div>
+        
+        <button>Submit</button>
+    </form>
+</body>
+</html>

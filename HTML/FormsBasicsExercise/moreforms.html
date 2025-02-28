@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Forms</title>
+</head>
+<body>
+    <h1>Other Form Controls</h1>
+    <h2>Text Areas</h2>
+    <form action=""></form>
+        <label for="notes">Additional Notes</label>
+        <textarea rows="10" cols="20" id="notes">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At illum, enim ad aperiam molestiae temporibus repellat eligendi ratione excepturi tenetur earum, explicabo repudiandae molestias quo modi commodi harum quos numquam!
+        </textarea>
+        <h2>Checkboxes</h2>
+        <form action="">
+            <label for="subscribe">Subscribe to newsletter?</label>
+            <input type="text" placeholder="username">
+            <input type="checkbox" name= subscribe id="subscribe" checked>
+            <button>Submit</button>
+        </form>
+        <h2>Range Input</h2>
+        <form action="">
+            <label for="volume">Select volume </label>
+            <input type="range" min="0" max="11" name="volume" id="volume" value="3" step="2">
+            <button>Submit</button>
+        </form>
+        <h2>Selects</h2>
+        <form action="">
+            <label for="skilllevel">Select Your Skill level</label>
+            <select name="skill level" id="">
+                <option value="1">Level 1 - Beginner</option>
+                <option value="2">Level 2 - Intermediate</option>
+                <option value="3" selected >Level 3 - Expert</option>
+            </select>
+            <button>submit</button>
+        </form>
+        <h2>Radio Buttons</h2>
+        <form action="">
+            <fieldset>
+                <legend>Pick you shirt size:</legend>
+                <div>
+                    <input type="radio" name="size" id="small" value="s">
+                    <label for="small">Small</label>
+                </div>
+                <div>
+                    <input type="radio" name="size" id="medium" value="m">
+                    <label for="medium">Medium</label>
+                </div>
+                <div>
+                    <input type="radio" name="size" id="Large" value="l">
+                    <label for="Large">Large</label>
+                </div>
+            </fieldset>
+            
+            <button>submit</button>
+        </form>
+</body>
+</html>

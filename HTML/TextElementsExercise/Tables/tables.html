@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        thead{
+            background-color: black;
+            color: white;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table>
+        <caption>Top IMDB Rated Movies</caption>
+        <thead>
+            <tr>
+                <th>Movie Name</th>
+                <th>Release Year</th>
+                <th>IMDB Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shawshank Redemption</td>
+                <td>1994</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <td>God Father</td>
+                <td>1972</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <td>The Dark Knight</td>
+                <td>2008</td>
+                <td>9.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Item</td>
+                <td>Quantity</td>
+                <td>Unit Price</td>
+                <td>Price</td>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pen</td>
+                <td>2</td>
+                <td>$1</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td>Pencil</td>
+                <td>4</td>
+                <td>$0.50</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td colspan="3">Sub Total</td>
+                <td rows>$4</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tax</td>
+                <td>10%</td>
+                <td>$0.40</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
